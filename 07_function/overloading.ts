@@ -2,12 +2,14 @@
 function az(n:number):number;
 function az(n:string):string;
 
+//구현 
 function az(n):any{
 
 }
 
-function pickCard(x: string): number;
-function pickCard(x: number): {suit: string; card: number; };
-function pickCard(x): any {
+function pickCard(x: string):number;
+function pickCard(x: number):{suit:string; card:number;};
+
+function pickCard(x):any{
 
 }

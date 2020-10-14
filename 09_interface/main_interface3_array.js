@@ -1,0 +1,12 @@
+var list = ["aaa", "bbb", "ccc"];
+list[3] = "ddd";
+console.log(list);
+var list2 = [1, 2, 3];
+console.log(list2);
+var agelist = {};
+//var agelist=<ages>[];
+agelist["one"] = 100;
+agelist["two"] = 200;
+agelist["three"] = 300;
+agelist[4] = 400;
+console.log(agelist);

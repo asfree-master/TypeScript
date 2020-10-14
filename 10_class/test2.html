@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+class Sparrow{
+        sound="참새 짹짹";
+};
+class Parrot{
+        sound="참새 짹짹";
+};
+class Duck{
+        sound="참새 짹짹";
+        swin(){
+            alert("오리가 헤엄치다");
+        }
+};
+var parrot:Parrot= new Sparrow();
+var sparrow:Sparrow= new Parrot();
+var parrotTwo:Parrot= new Duck();
+//var duck:Duck= new Parrot(); //complie error
+console.log(parrot.sound);
+console.log(sparrow.sound);
+console.log(parrotTwo.sound);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
