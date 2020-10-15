@@ -1,0 +1,1 @@
+var uuu:string="mesg"
